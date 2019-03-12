@@ -5,7 +5,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
     requiredVersion = REQUIRED_VERSION;
-    requiredAddons[] = {"sga_sgc_base","cba_a3"};
+    requiredAddons[] = {"sga_sgc_base","cba_main_a3"};
 	};
 };
 
