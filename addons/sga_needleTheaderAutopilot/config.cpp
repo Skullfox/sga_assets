@@ -23,11 +23,11 @@ class CfgFunctions
 	};
 };
 
-class Extended_Init_Eventhandlers
+class Extended_InitPost_EventHandlers
 {
     class sga_needlethreader_normal
     {
-        autopilot ="(_this select 0) call sga_needleThreader_fnc_initAutopilot";
+        ADDON ="(_this select 0) call sga_needleTheaderAutopilot_fnc_initAutopilot";
     };
 
 };

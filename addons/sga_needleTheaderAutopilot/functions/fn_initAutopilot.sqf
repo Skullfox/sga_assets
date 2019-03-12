@@ -11,7 +11,7 @@
 
 _vehicle = param[0,objNull];
 
-[_vehicle] call sga_needleThreader_fnc_autopilot;
+[_vehicle] call sga_needleTheaderAutopilot_fnc_autopilot;
 
 _vehicle addAction
 [

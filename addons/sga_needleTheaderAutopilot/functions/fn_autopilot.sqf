@@ -17,7 +17,7 @@ _vehicle = param[0,objNull];
 	"Activate Autopilot",
 	"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_connect_ca.paa",
 	"\a3\ui_f\data\IGUI\Cfg\holdactions\holdAction_connect_ca.paa",
-	"[_target ] call sga_needleThreader_fnc_canAutopilot",
+	"[_target ] call sga_needleTheaderAutopilot_fnc_canAutopilot",
 	"true",
 	{},
 	{},
